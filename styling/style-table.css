@@ -1,4 +1,86 @@
 .table-p-1px td {
-    margin-left: 1px;
-    margin-right: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.height-250px {
+  height: 250px;
+  overflow-y: scroll !important;
+}
+
+table.border-spacing td,
+table.border-spacing th {
+  transition: 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+table.border-spacing td:hover,
+table.border-spacing th:hover {
+  /* transition: ease; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fffa6e;
+}
+
+table.border-spacing {
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+td {
+  padding: 0.5rem 0.5rem;
+  display: table-cell;
+}
+
+.border-radius-round {
+  border-radius: 0%;
+}
+
+.color-brown {
+  color: brown;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-mediumblue {
+  color: mediumblue;
+}
+
+div.eg-2 {
+  border-left: 4px solid #04aa6d;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  padding: 8px 12px;
+}
+
+div.eg-2 pre {
+    margin: 0;
+}
+
+table.border-spacing-2 td,
+table.border-spacing-2 th {
+  transition: 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+table.border-spacing-2 td:hover,
+table.border-spacing-2 th:hover {
+  /* transition: ease; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fffa6e;
+}
+
+table.border-spacing-2 td:hover:nth-child(2),
+table.border-spacing-2 th:hover:nth-child(2) {
+  /* transition: ease; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #838381;
+}
+
+table.border-spacing-2 {
+  border-collapse: separate;
+  border-spacing: 4px;
 }
