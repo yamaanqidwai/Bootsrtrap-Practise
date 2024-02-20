@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Colors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./../styling/style-typography-color.css" />
+    <link rel="stylesheet" href="./../styling/style.css">
+  </head>
+  <body>
+    <h1 id="link-1">Bootstrap 5 Colors</h1>
+    <h2>Text Colors</h2>
+    <p>
+      Bootstrap 5 has some contextual classes that can be used to provide
+      "meaning through colors".
+    </p>
+
+    <div>
+      The classes for text colors are: <code>.text-muted</code>,
+      <code>.text-primary</code>, <code>.text-success</code>,
+      <code>.text-info</code>, <code>.text-warning</code>,
+      <code>.text-danger</code>, <code>.text-secondary</code>,
+      <code>.text-white</code>, <code>.text-dark</code>,
+      <code>.text-body</code> (default body color/often black) and
+      <code>.text-light</code>:
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="white-box">
+        <div class="text-muted">This text is muted.</div>
+        <div class="text-primary">This text is important/primary.</div>
+        <div class="text-success">This text indicates success.</div>
+        <div class="text-info">This text represents some information.</div>
+        <div class="text-warning">This text represents a warning.</div>
+        <div class="text-danger">This text represents danger.</div>
+        <div class="text-secondary">Secondary text.</div>
+        <div class="text-dark">Dark grey text.</div>
+        <div class="text-body">Body text.</div>
+        <div class="text-light">Light grey text.</div>
+      </div>
+    </div>
+
+    <div>
+      You can also add 50% opacity for black or white text with the
+      <code>.text-black-50</code> or <code>.text-white-50</code> classes:
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="white-box">
+        <div class="text-black-50">Black text with 50% opacity on white background</div>
+
+        <div class="text-white-50 bg-dark">White text with 50% opacity on <strong>black background</strong></div>
+      </div>
+    </div>
+
+    <h2>Background Colors</h2>
+
+    <div>
+      The classes for background colors are: <code>.bg-primary</code>,
+      <code>.bg-success</code>, <code>.bg-info</code>, <code>.bg-warning</code>,
+      <code>.bg-danger</code>, <code>.bg-secondary</code>,
+      <code>.bg-dark</code> and <code>.bg-light</code>.
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="white-box">
+        <div class="bg-primary p-3"></div>
+        <div class="bg-success p-3"></div>
+        <div class="bg-info p-3"></div>
+        <div class="bg-warning p-3"></div>
+        <div class="bg-danger p-3"></div>
+        <div class="bg-light p-3"></div>
+        <div class="bg-dark p-3"></div>
+        <div class="bg-secondary p-3"></div>
+      </div>
+    </div>
+    <div>
+      The <code>.bg-color</code> classes above does not work well with text, or
+      atleast then you have to specify a proper <code>.text-color</code> class
+      to get the right text color for each background.
+    </div>
+
+    <div>
+      However, you can use the <code>.text-bg-color</code> classes and Bootstrap
+      will automatically handle the appropriate text color for each background
+      color:
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="white-box">
+        <div class="text-bg-primary my-3">This text is important/primary.</div>
+        <div class="text-bg-success my-3">This text indicates success.</div>
+        <div class="text-bg-info my-3">This text represents some information.</div>
+        <div class="text-bg-warning my-3">This text represents a warning.</div>
+        <div class="text-bg-danger my-3">This text represents danger.</div>
+        <div class="text-bg-secondary my-3">Secondary background color.</div>
+        <div class="text-bg-dark my-3">Dark grey background color.</div>
+        <div class="text-bg-light my-3">Light background color.</div>
+      </div>
+    </div>
+  </body>
+</html>

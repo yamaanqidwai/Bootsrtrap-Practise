@@ -19,3 +19,65 @@
 .slow-transition {
   transition: 2s;
 }
+
+body {
+  -webkit-text-size-adjust: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000 !important;
+  box-sizing: border-box;
+  float: left;
+  width: 83.33333%;
+  margin-top: 10px;
+  padding: 16px 32px 32px 32px;
+  border-right: 1px solid #f1f1f1;
+}
+
+
+div.Example-Box {
+  -webkit-text-size-adjust: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000 !important;
+  box-sizing: border-box;
+  background-color: #e7e9eb;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 24px -20px;
+  box-shadow: none !important;
+}
+
+div.white-box {
+  -webkit-text-size-adjust: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  padding: 8px 16px !important;
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.green-try-box {
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  background-color: #04aa6d !important;
+  border-radius: 5px;
+  color: #ffffff;
+  float: right;
+  padding: 1px 10px 2px 10px;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
