@@ -32,6 +32,7 @@ body {
   padding: 16px 32px 32px 32px;
   border-right: 1px solid #f1f1f1;
   font-family: Verdana, sans-serif;
+  background-color: #fff !important;
 }
 
 div.Example-Box {
@@ -79,4 +80,16 @@ div.white-box {
   padding: 1px 10px 2px 10px;
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
+}
+
+hr {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000 !important;
+  box-sizing: content-box;
+  /* height: 0; */
+  overflow: visible;
+  border: 0;
+  border-top: 1px solid #cecece;
+  margin: 20px -16px;
 }
