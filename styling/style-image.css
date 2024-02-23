@@ -1,5 +1,29 @@
-.w-203__h-153 {
+img.w-203__h-153 {
     width: 203px;
     height: 153px;
+    /* box-sizing: border-box; */
+}
+
+.First-Example {
     box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 8px;
+    padding-top: 8px;
+    padding-bottom: 24px !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.First-Example div {
+    box-sizing: border-box;
+    /* float: left; */
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.First-Example div img {
+    box-sizing: border-box;
+    border-style: none;
+    vertical-align: middle;
+    width: 204px;
 }

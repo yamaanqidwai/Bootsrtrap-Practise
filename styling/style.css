@@ -20,6 +20,18 @@ code {
   font-size: 105%;
 }
 
+.color-brown {
+  color: brown;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-mediumblue {
+  color: mediumblue;
+}
+
 body {
   -webkit-text-size-adjust: 100%;
   font-size: 15px;
@@ -58,6 +70,13 @@ div.white-box {
   background-color: #fff !important;
 }
 
+div.eg-2 {
+  border-left: 4px solid #04aa6d;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  padding: 8px 12px;
+}
+
 .green-try-box {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
@@ -83,13 +102,13 @@ div.white-box {
 }
 
 hr {
-  font-size: 15px;
-  line-height: 1.5;
-  color: #000 !important;
   box-sizing: content-box;
-  /* height: 0; */
   overflow: visible;
   border: 0;
   border-top: 1px solid #cecece;
   margin: 20px -16px;
+}
+
+.family-2 {
+  font-family: Consolas,Menlo,"courier new",monospace;
 }

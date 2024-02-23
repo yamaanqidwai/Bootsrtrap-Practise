@@ -4,46 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Images - Bootstrap 5</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./../styling/style.css" />
+    <link rel="stylesheet" href="./../styling/style-image.css" />
   </head>
   <body>
     <h1>Bootstrap 5 Images</h1>
 
-    <h2>
+    <hr />
 
-        Image Shapes
-    </h2>
+    <h2>Image Shapes</h2>
 
-    <div>
-        <p>
-            Rounded Corners:
-        </p>
-        <img src="./../Images/Kali-1.jpg" alt="Kali-1" class="w-203__h-153">
+    <div class="flex-row Example-Box First-Example">
+      <div class="text-center">
+        <p>Rounded Corners:</p>
+        <img
+          src="./../Images/Kali-1.jpg"
+          alt="Kali-1"
+          class="w-203__h-153 rounded"
+          width="203"
+          height="153"
+        />
+      </div>
+
+      <div class="text-center">
+        <p>Circle:</p>
+        <img
+          src="./../Images/Kali-2.jpg"
+          alt="Kali-2"
+          class="w-203__h-153 rounded-circle"
+          width="203"
+          height="153"
+        />
+      </div>
+
+      <div class="text-center">
+        <p>Thumbnail:</p>
+        <img
+          src="./../Images/Kali-3.jpg"
+          alt="Kali-3"
+          class="w-203__h-153 img-thumbnail"
+          width="203"
+          height="153"
+        />
+      </div>
     </div>
 
-    <div>
-        <p>
-            Circle:
-        </p>
-        <img src="./../Images/Kali-2.jpg" alt="Kali-2" class="w-203__h-153">
-    </div>
+    <hr />
+
+    <h2>Rounded Corners</h2>
 
     <div>
-        <p>
-            Thumbnail:
-        </p>
-        <img src="./../Images/Kali-3.jpg" alt="Kali-3" class="w-203__h-153">
+      <p>The <code>.rounded</code> class adds rounded corners to an image:</p>
     </div>
 
-Rounded Corners
-The .rounded class adds rounded corners to an image:
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">img</span> <span class="color-red">src</span
+        ><span class="color-mediumblue">="Kali-1.jpg</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="rounded"</span>
+        <span class="color-red">alt</span
+        ><span class="color-mediumblue">="Kali 1"</span
+        ><span class="color-mediumblue">&gt;</span>
+        <!-- <img src="cinqueterre.jpg" class="rounded" alt="Cinque Terre" /> -->
+      </div>
+    </div>
 
-Example
-<img src="cinqueterre.jpg" class="rounded" alt="Cinque Terre">
-Circle
-The .rounded-circle class shapes the image to a circle:
+    <hr />
 
-Example
-<img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre">
+    <h2>Circle</h2>
+
+    <div>
+      <p>The .rounded-circle class shapes the image to a circle:</p>
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-3 bg-light family-2">
+
+      </div>
+    </div>
+
+    <img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre" />
+    <!--   
 Thumbnail
 The .img-thumbnail class shapes the image to a thumbnail (bordered):
 
@@ -70,7 +119,6 @@ Create responsive images by adding an .img-fluid class to the <img> tag. The ima
 The .img-fluid class applies max-width: 100%; and height: auto; to the image:
 
 Example
-<img class="img-fluid" src="ny.jpg" alt="New York">
-
+<img class="img-fluid" src="ny.jpg" alt="New York"> -->
   </body>
 </html>

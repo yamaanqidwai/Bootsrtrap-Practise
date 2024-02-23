@@ -38,13 +38,13 @@ td {
 
 div.eg-2 {
   border-left: 4px solid #04aa6d;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 1rem;
   padding: 8px 12px;
 }
 
 div.eg-2 pre {
-    margin: 0;
+  margin: 0;
 }
 
 table.border-spacing-2 td,
