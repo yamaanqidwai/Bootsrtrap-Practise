@@ -164,7 +164,7 @@
       </p>
     </div>
 
-    <div class="Example-Box">
+    <div class="Example-Box" style="box-sizing: content-box;">
       <div class="EXamples">Example</div>
       <div class="eg-2 my-3 bg-light family-2">
         <span class="color-mediumblue">&lt;</span
@@ -187,19 +187,19 @@
       </div>
       <!-- <div class="white-box rounded-bottom mb-2"> -->
     </div>
-    <div class="container">
+    <div class="container height-125">
       <img
         src="./../Images/Kali-3.jpg"
         alt="Kali-1"
         class="float-start"
-        width="30%"
+        width="203"
         height="auto"
       />
       <img
         src="./../Images/Kali-3.jpg"
         alt="Kali-1"
         class="float-end"
-        width="30%"
+        width="203"
         height="auto"
       />
     </div>
@@ -210,8 +210,8 @@
 
     <div>
       <p>
-        Center an image by adding the utility classes .mx-auto (margin:auto) and
-        .d-block (display:block) to the image:
+        Center an image by adding the utility classes <code>.mx-auto</code> (margin:auto) and
+        <code>.d-block</code> (display:block) to the image:
       </p>
     </div>
 
@@ -222,7 +222,7 @@
         ><span class="color-brown">img</span> <span class="color-red">src</span
         ><span class="color-mediumblue">="Kali-3.jpg</span>
         <span class="color-red">class</span
-        ><span class="color-mediumblue">="img-thumbnail"</span>
+        ><span class="color-mediumblue">="d-block mx-auto"</span>
         <span class="color-red">alt</span
         ><span class="color-mediumblue">="Kali 3"</span
         ><span class="color-mediumblue">&gt;</span>
@@ -231,7 +231,7 @@
         <img
           src="./../Images/Kali-3.jpg"
           alt="Kali-1"
-          class="w-203__h-153 img-thumbnail"
+          class="mx-auto d-block"
           width="203"
           height="153"
         />
@@ -240,17 +240,50 @@
 
     <!-- <img src="paris.jpg" class="mx-auto d-block"> -->
 
+    <h2>Responsive Images</h2>
+
+    <div>
+      <p>
+        Images come in all sizes. So do screens. Responsive images automatically
+        adjust to fit the size of the screen.
+      </p>
+      <p>
+        Create responsive images by adding an <code>.img-fluid</code> class to
+        the <code>&lt;img></code> tag. The image will then scale nicely to the
+        parent element.
+      </p>
+
+      <p>
+        The <code>.img-fluid</code> class applies
+        <code>max-width: 100%;</code> and <code>height: auto;</code> to the
+        image:
+      </p>
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-3 bg-light family-2">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">img</span> <span class="color-red">src</span
+        ><span class="color-mediumblue">="Kali-1.jpg</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="img-fluid"</span>
+        <span class="color-red">alt</span
+        ><span class="color-mediumblue">="Kali 1"</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+      <div class="white-box rounded-bottom mb-2">
+        <img
+          src="./../Images/Kali-1.jpg"
+          alt="Kali-1"
+          class="w-203__h-153 img-fluid"
+          width="203"
+          height="153"
+        />
+      </div>
+    </div>
+
     <!--   
-
-
-Responsive Images
-Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen.
-
-Create responsive images by adding an .img-fluid class to the <img> tag. The image will then scale nicely to the parent element.
-
-The .img-fluid class applies max-width: 100%; and height: auto; to the image:
-
-Example
-<img class="img-fluid" src="ny.jpg" alt="New York"> -->
+    <img class="img-fluid" src="ny.jpg" alt="New York"> -->
   </body>
 </html>
