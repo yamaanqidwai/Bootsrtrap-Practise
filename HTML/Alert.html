@@ -10,6 +10,11 @@
     />
     <link rel="stylesheet" href="./../styling/style.css" />
     <link rel="stylesheet" href="./../styling/style-alert.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <h1>Bootstrap 5 Alerts</h1>
@@ -54,34 +59,162 @@
         <strong>Light!</strong> Light grey alert.
       </div>
     </div>
-    <!-- 
-Alerts are created with the .alert class, followed by one of the contextual classes .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light or .alert-dark:
 
-Example
-<div class="alert alert-success">
-  <strong>Success!</strong> Indicates a successful or positive action.
-</div>
-Alert Links
-Add the .alert-link class to any links inside the alert box to create "matching colored links":
+    <div class="pt-3">
+      <p>
+        Alerts are created with the <code>.alert</code> class, followed by one
+        of the contextual classes <code>.alert-success</code>,
+        <code>.alert-info</code>, <code>.alert-warning</code>,
+        <code>.alert-danger</code>, <code>.alert-primary</code>,
+        <code>.alert-secondary</code>, <code>.alert-light</code> or
+        <code>.alert-dark</code>:
+      </p>
+    </div>
 
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light rounded-top">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">div</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="alert alert-success"</span
+        ><span class="color-mediumblue">&gt;</span> <br />&nbsp;
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">strong</span
+        ><span class="color-mediumblue">&gt;</span>Success!<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/strong</span
+        ><span class="color-mediumblue">&gt;</span> Indicates a successful or
+        positive action.
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/div</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
 
-Example
-<div class="alert alert-success">
-  <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
-</div>
-Closing Alerts
-Success! This alert box could indicate a successful or positive action.
-To close the alert message, add a .alert-dismissible class to the alert container. Then add class="btn-close" and data-bs-dismiss="alert" to a link or a button element (when you click on this the alert box will disappear).
+    <h2>Alert Links</h2>
 
-Example
-<div class="alert alert-success alert-dismissible">
-  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  <strong>Success!</strong> This alert box could indicate a successful or positive action.
-</div>
-Animated Alerts
-The .fade and .show classes adds a fading effect when closing the alert message:
+    <div>
+      <p>
+        Add the <code>.alert-link</code> class to any links inside the alert box
+        to create "matching colored links":
+      </p>
+    </div>
 
-Example
-<div class="alert alert-danger alert-dismissible fade show"> -->
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light rounded-top">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">div</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="alert alert-success"</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />&nbsp; <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">strong</span
+        ><span class="color-mediumblue">&gt;</span>Success!<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/strong</span
+        ><span class="color-mediumblue">&gt;</span> You should
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">a</span> <span class="color-red">href</span
+        ><span class="color-mediumblue">="#"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="alert-link"></span>read this
+        message<span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/a</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/div</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <h2>Closing Alerts</h2>
+    <div class="alert alert-success alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Success!</strong> This alert box could indicate a successful or
+      positive action.
+    </div>
+
+    <div>
+      <p>
+        To close the alert message, add a <code>.alert-dismissible</code> class
+        to the alert container. Then add <code>class="btn-close"</code> and
+        <code>data-bs-dismiss="alert"</code> to a link or a button element (when
+        you click on this the alert box will disappear).
+      </p>
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light rounded-top">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">div</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue"
+          >="alert alert-success alert-dismissible"</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />&nbsp; <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn-close"</span>
+        <span class="color-red">data-bs-dismiss</span
+        ><span class="color-mediumblue">="alert"</span
+        ><span class="color-mediumblue">&gt;</span
+        ><span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />&nbsp; <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">strong</span
+        ><span class="color-mediumblue">&gt;</span>Success!<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/strong</span
+        ><span class="color-mediumblue">&gt;</span> This alert box could
+        indicate a successful or positive action.
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/div</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <h2>Animated Alerts</h2>
+
+    <div>
+      <p>
+        The <code>.fade</code> and <code>.show</code> classes adds a fading
+        effect when closing the alert message:
+      </p>
+    </div>
+
+    <div class="alert alert-danger alert-dismissible fade show">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Danger!</strong> This alert box could indicate danger or dangerous
+      action.
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light rounded-top">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">div</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue"
+          >="alert alert-danger alert-dismissible fade show"</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
   </body>
 </html>
