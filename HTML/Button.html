@@ -9,7 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./../styling/style.css" />
-    <link rel="stylesheet" href="./../styling/style-alert.css" />
+    <link rel="stylesheet" href="./../styling/style-button.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -157,111 +157,455 @@
       </div>
     </div>
 
-    <!-- 
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-dark">Dark</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-link">Link</button>
-<button type="button" class="btn">Basic</button>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-dark">Dark</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-link">Link</button>
-The button classes can be used on <a>, <button>, or <input> elements:
+    The button classes can be used on <code>&lt;a></code>,
+    <code>&lt;button></code>, or <code>&lt;input></code> elements:
 
-Example
-<a href="#" class="btn btn-success">Link Button</a>
-<button type="button" class="btn btn-success">Button</button>
-<input type="button" class="btn btn-success" value="Input Button">
-<input type="submit" class="btn btn-success" value="Submit Button">
-<input type="reset" class="btn btn-success" value="Reset Button">
-Why do we put a # in the href attribute of the link?
+    <div class="Example-Box">
+      <div class="EXamples h3">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">a</span> <span class="color-red">href</span
+        ><span class="color-mediumblue">="#"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-success"</span
+        ><span class="color-mediumblue">&gt;</span>Link Button<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/a</span
+        ><span class="color-mediumblue">&gt;</span>
 
-Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link. In real life it should of course been a real URL to the "Search" page.
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-success"</span
+        ><span class="color-mediumblue">&gt;</span>Button<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
 
-Button Outline
-Bootstrap 5 also provides eight outline/bordered buttons.
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">input</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-success"</span>
+        <span class="color-red">value</span
+        ><span class="color-mediumblue">="Input Button"</span
+        ><span class="color-mediumblue">&gt;</span>
 
-Move the mouse over them to see an additional "hover" effect:
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">input</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-success"</span>
+        <span class="color-red">value</span
+        ><span class="color-mediumblue">="Submit Button"</span
+        ><span class="color-mediumblue">&gt;</span>
 
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">input</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-success"</span>
+        <span class="color-red">value</span
+        ><span class="color-mediumblue">="Reset Button"</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <div class="yellow-bg pd-2 container-fluid">
+      <p>
+        <strong> Why do we put a # in the href attribute of the link? </strong>
+        <br />
+
+        Since we do not have any page to link it to, and we do not want to get a
+        "404" message, we put # as the link. In real life it should of course
+        been a real URL to the "Search" page.
+      </p>
+    </div>
+
+    <h2>Button Outline</h2>
+
+    <div>
+      <p>Bootstrap 5 also provides eight outline/bordered buttons.</p>
+
+      <p>Move the mouse over them to see an additional "hover" effect:</p>
+    </div>
+
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark">Light</button>
+
+    <div class="Example-Box">
+      <div class="EXamples h3">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-primary"</span
+        ><span class="color-mediumblue">&gt;</span>Primary<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-secondary"</span
+        ><span class="color-mediumblue">&gt;</span>Secondary<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-success"</span
+        ><span class="color-mediumblue">&gt;</span>Success<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-info"</span
+        ><span class="color-mediumblue">&gt;</span>Info<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-warning"</span
+        ><span class="color-mediumblue">&gt;</span>Warning<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-dark"</span
+        ><span class="color-mediumblue">&gt;</span>Dark<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-outline-light"</span
+        ><span class="color-mediumblue">&gt;</span>Light<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <h2>Button Sizes</h2>
+
+    <div>
+      <p>
+        Button Sizes Use the <code>.btn-lg</code> class for large buttons or
+        <code>.btn-sm</code> class for small buttons:
+      </p>
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg">Large</button>
+    <button type="button" class="btn btn-primary">Default</button>
+    <button type="button" class="btn btn-primary btn-sm">Small</button>
+
+    <div class="Example-Box">
+      <div class="EXamples h3">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary btn-lg"</span
+        ><span class="color-mediumblue">&gt;</span>Large<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary"</span
+        ><span class="color-mediumblue">&gt;</span>Default<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary btn-sm"</span
+        ><span class="color-mediumblue">&gt;</span>Small<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <h2>Block Level Buttons</h2>
+
+    <div>
+      <p>
+        To create a block level button that spans the entire width of the parent
+        element, use the <code>.d-grid</code> "helper" class on the parent
+        element:
+      </p>
+    </div>
+
+    <div class="d-grid">
+      <button type="button" class="btn btn-primary btn-block">
+        Full-Width Button
+      </button>
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples h3">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">div</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="d-grid"</span
+        ><span class="color-mediumblue">&gt;</span> <br />&nbsp;
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary btn-block"</span
+        ><span class="color-mediumblue">&gt;</span>Full-Width Button<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/div</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <div>
+      <p>
+        If you have many block-level buttons, you can control the space between
+        them with the <code>.gap-*</code> class:
+      </p>
+    </div>
+
+    <div class="d-grid gap-3">
+      <button type="button" class="btn btn-primary btn-block">
+        Full-Width Button
+      </button>
+      <button type="button" class="btn btn-primary btn-block">
+        Full-Width Button
+      </button>
+      <button type="button" class="btn btn-primary btn-block">
+        Full-Width Button
+      </button>
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples h3">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">div</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="d-grid gap-3"</span
+        ><span class="color-mediumblue">&gt;</span> <br />&nbsp;
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary btn-block"</span
+        ><span class="color-mediumblue">&gt;</span>Full-Width Button<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span> <br />&nbsp;
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary btn-block"</span
+        ><span class="color-mediumblue">&gt;</span>Full-Width Button<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span> <br />&nbsp;
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary btn-block"</span
+        ><span class="color-mediumblue">&gt;</span>Full-Width Button<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span>
+        <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">/div</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Active/Disabled Buttons</h2>
+
+    <div>
+      <p>
+        A button can be set to an active (appear pressed) or a disabled
+        (unclickable) state:
+      </p>
+    </div>
+
+    <div class="mb-3">
+      <button type="button" class="btn btn-primary active">
+        Active Primary
+      </button>
+      <button type="button" class="btn btn-primary" disabled>
+        Disabled Primary
+      </button>
+    </div>
+
+    <div>
+      <p>
+        The class <code>.active</code> makes a button appear pressed, and the
+        disabled attribute makes a button unclickable. Note that
+        <code>&lt;a></code> elements do not support the disabled attribute and
+        must therefore use the <code>.disabled</code> class to make it visually
+        appear disabled.
+      </p>
+    </div>
+
+    <div class="Example-Box">
+      <div class="EXamples h3">Example</div>
+      <div class="eg-2 my-2 mt-3 bg-light">
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary active"</span
+        ><span class="color-mediumblue">&gt;</span>Active Primary<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span> <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">button</span>
+        <span class="color-red">type</span
+        ><span class="color-mediumblue">="button"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary" </span
+        ><span class="color-red">disabled</span
+        ><span class="color-mediumblue">&gt;</span>Disabled Primary<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/button</span
+        ><span class="color-mediumblue">&gt;</span> <br />
+        <span class="color-mediumblue">&lt;</span
+        ><span class="color-brown">a</span> <span class="color-red">href</span
+        ><span class="color-mediumblue">="#"</span>
+        <span class="color-red">class</span
+        ><span class="color-mediumblue">="btn btn-primary disabled"</span
+        ><span class="color-mediumblue">&gt;</span>Disabled Link<span
+          class="color-mediumblue"
+          >&lt;</span
+        ><span class="color-brown">/a</span
+        ><span class="color-mediumblue">&gt;</span>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary active">Active Primary</button>
+    <button type="button" class="btn btn-primary" disabled>
+      Disabled Primary
+    </button>
+    <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+<!--     
+    Spinner Buttons
+    You can also add "spinners" to a button, which you will learn more about in our BS5 Spinners Tutorial:
+    
        
-
-Example
-<button type="button" class="btn btn-outline-primary">Primary</button>
-<button type="button" class="btn btn-outline-secondary">Secondary</button>
-<button type="button" class="btn btn-outline-success">Success</button>
-<button type="button" class="btn btn-outline-info">Info</button>
-<button type="button" class="btn btn-outline-warning">Warning</button>
-<button type="button" class="btn btn-outline-danger">Danger</button>
-<button type="button" class="btn btn-outline-dark">Dark</button>
-<button type="button" class="btn btn-outline-light text-dark">Light</button>
-Button Sizes
-Use the .btn-lg class for large buttons or .btn-sm class for small buttons:
-
-  
-
-Example
-<button type="button" class="btn btn-primary btn-lg">Large</button>
-<button type="button" class="btn btn-primary">Default</button>
-<button type="button" class="btn btn-primary btn-sm">Small</button>
-Block Level Buttons
-To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element:
-
-Example
-<div class="d-grid">
-  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-</div>
-If you have many block-level buttons, you can control the space between them with the .gap-* class:
-
-Example
-<div class="d-grid gap-3">
-  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-</div>
-Active/Disabled Buttons
-A button can be set to an active (appear pressed) or a disabled (unclickable) state:
-
- 
-
-The class .active makes a button appear pressed, and the disabled attribute makes a button unclickable. Note that <a> elements do not support the disabled attribute and must therefore use the .disabled class to make it visually appear disabled.
-
-Example
-<button type="button" class="btn btn-primary active">Active Primary</button>
-<button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
-<a href="#" class="btn btn-primary disabled">Disabled Link</a>
-Spinner Buttons
-You can also add "spinners" to a button, which you will learn more about in our BS5 Spinners Tutorial:
-
-   
-Example
-<button class="btn btn-primary">
-  <span class="spinner-border spinner-border-sm"></span>
-</button>
-
-<button class="btn btn-primary">
-  <span class="spinner-border spinner-border-sm"></span>
-  Loading..
-</button>
-
-<button class="btn btn-primary" disabled>
-  <span class="spinner-border spinner-border-sm"></span>
-  Loading..
-</button>
-
-<button class="btn btn-primary" disabled>
-  <span class="spinner-grow spinner-grow-sm"></span>
-  Loading..
-</button> -->
+    Example
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+    </button>
+    
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-grow spinner-grow-sm"></span>
+      Loading..
+    </button>  -->
   </body>
 </html>

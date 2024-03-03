@@ -71,7 +71,7 @@ div.white-box {
 
 div.eg-2 {
   border-left: 4px solid #04aa6d;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Consolas, Menlo, "courier new", monospace;
   font-size: 1rem;
   padding: 8px 12px;
 }
@@ -109,5 +109,5 @@ hr {
 }
 
 .family-2 {
-  font-family: Consolas,Menlo,"courier new",monospace;
+  font-family: Consolas, Menlo, "courier new", monospace;
 }
